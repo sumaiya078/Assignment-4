@@ -29,14 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'MacBook Air M2',
       category: 'laptops',
       price: 99999,
-      img: 'MacBook_Air_M2.jpg',
+      img: 'MacBook Air M2.jpg',
     },
     {
       id: 4,
       name: 'Dell XPS 13',
       category: 'laptops',
       price: 87999,
-      img: 'Dell_XPS_13.jpg',
+      img: 'Dell XPS 13.jpg',
     },
     {
       id: 5,
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const productDiv = document.createElement('div')
       productDiv.classList.add('product')
       productDiv.innerHTML = `
-                <img src="Images/${product.img}" alt="${product.name}">
+                <img src="images/${product.img}" alt="${product.name}">
                 <h3>${product.name}</h3>
                 <p>Rs. ${product.price}</p>
                 <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const cartItem = document.createElement('div')
       cartItem.classList.add('cart-item')
       cartItem.innerHTML = `
-                <img src="Images/${item.img}" alt="${item.name}">
+                <img src="images/${item.img}" alt="${item.name}">
                 <div>
                     <h4>${item.name}</h4>
                     <p>RS. ${item.price} x ${item.quantity}</p>
