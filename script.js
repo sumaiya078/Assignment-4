@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 2,
       name: 'Samsung Galaxy S23 Ultra 5g',
-      category: 'mobile',
+      category: 'Mobile',
       price: 74999,
       img: 'Samsung galaxy.jpg',
     },
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 15,
       name: 'Tablet',
-      category: 'mobile',
+      category: 'Mobile',
       price: 39999,
       img: 'Tablet.jpg',
     },
