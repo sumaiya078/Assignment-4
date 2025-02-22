@@ -13,14 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 1,
       name: 'iphone 14',
-      category: 'Mobiles',
+      category: 'Mobile',
       price: 79999,
       img: 'iphone 14.jpg',
     },
     {
       id: 2,
       name: 'Samsung Galaxy S23 Ultra 5g',
-      category: 'mobiles',
+      category: 'Mobile',
       price: 74999,
       img: 'Samsung galaxy.jpg',
     },
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 9,
       name: 'Canon Camera',
-      category: 'accessories',
+      category: 'camera',
       price: 45000,
       img: 'Canon_Camera.jpg',
     },
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 15,
       name: 'Tablet',
-      category: 'mobiles',
+      category: 'Mobile',
       price: 39999,
       img: 'Tablet.jpg',
     },
