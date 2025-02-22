@@ -115,6 +115,48 @@ document.addEventListener('DOMContentLoaded', () => {
       price: 39999,
       img: 'Tablet.jpg',
     },
+    {
+      id: 16,
+      name: 'Kuai Tv',
+      category: 'electronics',
+      price: 45000,
+      img: 'kuai tv',
+    },
+    {
+      id: 9,
+      name: 'NBD 4k camera',
+      category: 'camera',
+      price: 54000,
+      img: 'NBD 4k.jpg',
+    },
+    {
+      id: 9,
+      name: 'Outdoor cctv camera',
+      category: 'camera',
+      price: 5000,
+      img: 'outdoor camera.jpg',
+    },
+    {
+      id: 9,
+      name: 'Philips Tv',
+      category: 'electronics',
+      price: 15000,
+      img: 'philips.jpg',
+    },
+    {
+      id: 9,
+      name: 'Samsung 4 Door Refrigerator',
+      category: 'electronics',
+      price: 45000,
+      img: 'samsung 4door.jpg',
+      {
+      id: 9,
+      name: 'Samsung double door fridge',
+      category: 'electronics',
+      price: 35000,
+      img: 'samsung.jpg',
+    },
+    },
   ]
 
   function renderProducts(category = 'all') {
